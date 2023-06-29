@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Oswald:wght@300&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    
+    
+}
+.sidebar{
+    background-color: #80ced6;
+    position: absolute;
+    font-family: 'Oswald', sans-serif;
+    height: 806px;
+    transition: transform  ease-in-out;
+}
+.sidebar nav{
+    padding: 40px;
+}
+.sidebar nav li{
+    padding-left: 20px;
+    list-style: none;
+    font-size: 30px;
+    padding-top: 45px;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    background-color: beige;
+    height: 92.3vh;
+    width: 1800px;
+    padding: 23px;
+    flex-wrap: wrap;
+}
+.container{
+    display: flex;
+    
+
+}
+.infocontainer{
+    margin: 94px auto;
+    display: flex;
+    
+    height:68vh;
+    width: 80vw;
+    justify-content: space-around;
+   
+}
+.devinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hello{
+    font-family: 'Nunito', sans-serif;
+    font-size: 28px;
+}
+.name{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 34px;
+}
+.about{
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+}
+.devpic img{
+    height:500px;
+}  
+.buttons button{
+    padding:9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color:#ff7b25;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 6px 3px;
+}  
+.buttons button:hover{
+    color:#ff7b25;
+    background-color:white;
+}
+.contactcontainer{
+    text-align-last: center;
+    margin-top: 200px;
+}
+.contactelement{
+    font-weight:bolder;
+    line-height: 60px;
+    font-family: 'Oswald', sans-serif;
+}
+.contactelement1{
+    line-height: 60px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.articlecontainer{
+    margin-top: 70px;
+    
+}
+.articleitem{
+    line-height: 30px;
+    padding-top: 50px;
+    padding-left: 20px;
+    font-family: 'Nunito', sans-serif;
+}  
+.articleitemdes{
+    line-height: 20px;
+    padding-left: 50px;
+    padding-top: 20px;
+    font-family: 'Nunito', sans-serif;
+} 
+.projectcontainer{
+    margin-top: 70px;
+
+} 
+.projectelement{
+    padding-left: 20px;
+    padding-top: 50px;
+}
+.projectelementdes{
+    line-height: 20px;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top: 20px;
+    font-family: 'Nunito', sans-serif;   
+}
+.sidebargo{
+    transform: translate(-323px,0px);
+    position: absolute;
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.cross{
+    margin-left: 130px;
+    
+}
+.footer{
+    background-color: rgb(53, 52, 52);
+    color: azure;
+    text-align: center;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    height: 3vh;
+}
+
+@media(max-width:998px){
+    .devpic{
+        display: none;
+    }
+    html {
+        font-size: small;
+    }
+}
